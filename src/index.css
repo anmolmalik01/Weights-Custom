@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(185, 210, 214, 0.363);
+}
+
+.header{
+    display: block;
+    margin: 0% auto auto auto;
+
+    background-image: url(./images/Header.jpg);
+    
+    font-size: 3.666rem;
+    line-height: 1.0625;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    letter-spacing: -.009em;
+}
+
+@media (max-width : 900px) {
+  .header{
+    font-size: 2.9rem;  
+  }
+}
+
+
+.header-image{
+  position: absolute;
+  top: -3px;
+  left: 3%;
+  
+  height: 11%;
+  
+  background: transparent;
+  padding: 8px;
+
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302B;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.header-image:hover{  
+    box-shadow: inset 100px 0 0 0 #E2D4F3;
+    color: #fff;
+}
+
+@media (max-width : 900px) {
+  .header-image{
+    height: 9%;
+    padding: 6px;
+      
+  }
+}
+
+
+@media (max-width : 623px) {
+  .header-image{
+    top: 22px;
+    left: 1.5%;
+  }
+}
+
+
+hr{
+  background-color: rgb(179, 179, 179);
+  height: 3px;
+  width: 10%;
+  
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+footer{
+  height: fit-content;
+  width: 100%;
+
+}
+
+.footer_text{
+  color: black;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 700;
+  text-align: center;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: -.009em;
+}
+
+.social{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 6px auto 4px auto;
+}
+
+@media (max-width : 650px) {
+  .social{
+    font-size: 32px;
+  }
+}
+
+.social .fab , .social .fas{
+  background: #39383a59;
+  border-radius: 10%;
+  color: white;
+  transition:  all 0.3s ease;
+  margin-left: 30px;
+  padding: 6px;
+}
+
+.social .fab:hover , .social .fas:hover{
+  border-radius: 50%;
+}
+

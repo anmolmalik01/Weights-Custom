@@ -1,0 +1,9 @@
+{
+  "short_name": "weight-on-other-planets",
+  "name": "weight-on-other-planets",
+  "icons": [
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
