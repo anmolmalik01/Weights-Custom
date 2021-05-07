@@ -7,8 +7,8 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/AnmolMalik\_\_" target="_blank">
-    <img alt="Twitter: AnmolMalik\_\_" src="https://img.shields.io/twitter/follow/AnmolMalik\_\_.svg?style=social" />
+  <a href="https://twitter.com/AnmolMalik__" target="_blank">
+    <img alt="Twitter: AnmolMalik__" src="https://img.shields.io/twitter/follow/AnmolMalik__.svg?style=social" />
   </a>
 </p>
 
