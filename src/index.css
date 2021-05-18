@@ -1,35 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 body{
   background-color: rgba(185, 210, 214, 0.363);
 }
 
+/* =============================== header ========================================= */
 .header{
-    display: block;
-    margin: 0% auto auto auto;
+  display: block;
+  margin: 0% auto auto auto;
 
-    background-image: url(./images/Header.jpg);
+  background-image: url(./Images/Header.jpg);
     
-    font-size: 3.666rem;
-    line-height: 1.0625;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    letter-spacing: -.009em;
+  font-size: 3.666rem;
+  line-height: 1.0625;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: -.009em;
 }
 
-@media (max-width : 900px) {
+@media (max-width : 480px) {
   .header{
-    font-size: 2.9rem;  
+    font-size: 2.33rem;  
   }
 }
 
-
+/* =============================== icon ========================================= */
 .header-image{
   position: absolute;
   top: -3px;
@@ -49,28 +57,28 @@ body{
   transition: all ease 0.5s;
 }
 
+
 .header-image:hover{  
-    box-shadow: inset 100px 0 0 0 #E2D4F3;
-    color: #fff;
+  box-shadow: inset 100px 0 0 0 #E2D4F3;
+  color: #fff;
 }
 
-@media (max-width : 900px) {
+@media (max-width : 480px) {
   .header-image{
-    height: 9%;
-    padding: 6px;
-      
+    position: absolute;
+    top: -5px;
+    left: 0%;
+    height: 7.66%;
   }
 }
 
-
-@media (max-width : 623px) {
+@media (max-width : 300px) {
   .header-image{
-    top: 22px;
-    left: 1.5%;
+    top: 3%;
   }
 }
 
-
+/* =============================== hr available at bottom ========================================= */
 hr{
   background-color: rgb(179, 179, 179);
   height: 3px;
@@ -80,22 +88,23 @@ hr{
   margin: 30px auto 10px auto;
 }
 
+/* =============================== footer and footer text ========================================= */
 footer{
   height: fit-content;
   width: 100%;
-
 }
 
 .footer_text{
   color: black;
   font-size: 18px;
   line-height: 1.45;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: Oxygen, Roboto, Ubuntu, Cantarell, Open Sans;
   letter-spacing: -.009em;
 }
 
+/* =============================== social media ========================================= */
 .social{
   font-size: 40px;
   display: flex;
@@ -121,4 +130,3 @@ footer{
 .social .fab:hover , .social .fas:hover{
   border-radius: 50%;
 }
-

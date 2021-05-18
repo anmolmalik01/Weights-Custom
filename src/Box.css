@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
 *{
   margin: 0%;
   padding: 0%;
@@ -8,6 +14,7 @@
   background-color: coral;
 }
 
+/* ====================== griding all three components(box, image, answer) =========================== */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -23,9 +30,11 @@
   .grid-container{
     display: flex;
     flex-direction: column;
+    margin-top: 0%;
   }
 }
 
+/* ========================= box containing drop-down and placeholder ================================= */
 .box{
   display: flex;
   flex-direction: column;
@@ -35,24 +44,24 @@
   border: 3px solid #31302B;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #31302B;
 }
 
 
-@media (max-screen : 700px){
+@media (max-width : 400px){
   .box{
-    display: block;
-    margin: auto auto;
-    padding: 8px 26px 26px 26px;
+    padding: 4px 13px 13px 13px;
   }
 }
 
+/* =============================== box text ========================================= */
 .box_text{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Open Sans;
   font-size: 20px;
   padding: 13px;
   color: black;
+  font-weight: 400;
 }
+
 @media (max-width : 700px) {
   .box_text{
     font-size: 16px;
@@ -60,19 +69,19 @@
   }
 }
 
-
-@media (max-screen : 700px){
+@media (max-width : 400px) {
   .box_text{
-    text-align: center;
+    font-size: 13px;
+    padding: 7px;
   }
 }
 
-
+/* =============================== answer line ========================================= */
 .answer{
   grid-area: answer;
   text-align: center;
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, Open Sans;
   font-size: 20px;
   margin: 20px auto auto auto;
 }
@@ -90,7 +99,7 @@
   }
 }
 
-
+/* =============================== image ========================================= */
 .image{
   height: 80%;
   width: 60%;
@@ -99,20 +108,40 @@
   margin: 44px auto auto auto;
 }
 
-select{ 
-  padding: 7px 40px 7px 12px; 
+/* =============================== placeholder ========================================= */
+.input-block input {
   width: 200px;
+  padding: 5px 8px;
+  border: 2px solid #D9D9D9;
+  border-radius: 5px;
+  outline:none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #495055;
+}
+.input-block {
+  color: #284B63;
+  border-color: #284B63;
+}
+@media (max-width : 400px) {
+  .input-block input{
+    width : 150px;
+  }
+}
+
+/* =============================== drop-down ========================================= */
+select{ 
+  width: 200px;
+  background: white;
+  padding: 7px 40px 7px 12px; 
   border: 1px solid #E8EAED;
   border-radius: 5px;
-  background: white;
   box-shadow: 0 1px 3px -2px #9098A9;
   cursor: pointer;
-
   transition: all 150ms ease;
-  
+  color: #5A667F;
   font-family: inherit;
   font-size: 1rem;
-  color: #5A667F;
 }
 option{ 
   color: #223254;
@@ -121,26 +150,9 @@ option:hover {
   stroke: #0077FF;
 }
 
-
-
-
-.input-block input {
-  
-  width: 200px;
-  padding: 5px 8px;
-  
-  border: 2px solid #D9D9D9;
-  border-radius: 5px;
-  outline:none;
-  
-  font-weight: 500;
-  font-size: 1rem;
-  color: #495055;
+@media (max-width : 400px) {
+  select{
+    width : 150px;
+  }
 }
-
-.input-block {
-color: #284B63;
-border-color: #284B63;
-}
-
 
