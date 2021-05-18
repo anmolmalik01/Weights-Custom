@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Box from './Box';
+import Box from '../src/Components/Box.js';
 
-import './index.css';
-import './Box.css'
+import '../src/CSS/index.css';
+import '../src/CSS/Box.css'
 
 
   ReactDOM.render(

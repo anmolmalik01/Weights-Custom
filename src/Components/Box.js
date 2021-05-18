@@ -1,8 +1,8 @@
 import React from 'react';
-import './Box.css';
-import { data, planet } from './data';
-import Answer from './Answer'
-import Image from './Image'
+import '../CSS/Box.css';
+import { data, planet } from '../Components/data';
+import Answer from '../Components/Answer'
+import Image from '../Components/Image'
 
 
 class Box extends React.Component{ 
