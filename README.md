@@ -1,7 +1,7 @@
-<h1 align="center">Welcome to weight-on-other-planets 👋</h1>
+<h1 align="center">Welcome to weights-custom 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/anmolmalik/weight-on-other-planets" target="_blank">
+  <a href="https://github.com/anmolmalik/weights-custom" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="#" target="_blank">
@@ -14,12 +14,12 @@
 
 > This is a react website which calculates weight on other planets.
 
-### ✨ [Demo](http://weightonotherplanets.netlify.app)
+### ✨ [Demo](http://weights-custom.netlify.app)
 
 ## Install
 
 ```sh
-git clone https://github.com/anmolmalik/weight-on-other-planets.git
+git clone https://github.com/anmolmalik/weights-custom.git
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ npm run test
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/anmolmalik/weight-on-other-planets/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/anmolmalik/weights-custom/issues). 
 
 ## Show your support
 
